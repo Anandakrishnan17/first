@@ -1,0 +1,5 @@
+tuple1=(4,3,5,2,1,)
+list1=list(tuple1)
+list1.sort()
+tuple1=tuple(list1)
+print(tuple1)

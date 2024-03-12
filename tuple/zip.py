@@ -1,0 +1,5 @@
+a=("python","django","html")
+b=("prog_lang","framework","frontend")
+c=(3,3.4,8)
+d=zip(a,b,c)
+print(list(d))

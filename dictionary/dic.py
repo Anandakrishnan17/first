@@ -1,0 +1,12 @@
+d1 = {"name":"Athul","Age":21,"Language":"mal"}
+print(d1)
+print(len(d1))
+print(d1["Age"])
+print(d1.get("name"))
+print(d1.keys())
+print(d1.values())
+print(d1.items())
+d1.update({"car":"bmw"})
+d1.pop("Language")
+d1.popitem()
+print(d1)

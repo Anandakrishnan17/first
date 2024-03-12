@@ -1,0 +1,5 @@
+a=("python",123)
+print(type(a))
+b=len(a)
+print(b)
+print(a[1])

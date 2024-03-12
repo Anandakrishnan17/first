@@ -1,0 +1,9 @@
+tuple1=(1,2,3,4,5)
+tuple2=(5,4,3,2,1)
+list1=list(tuple1)
+list2=list(tuple2)
+list1,list2=list2,list1
+tuple1=tuple(list1)
+tuple2=tuple(list2)
+print(tuple1)
+print(tuple2)
